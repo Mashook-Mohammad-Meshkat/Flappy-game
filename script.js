@@ -7,9 +7,9 @@ let bird = {
     x: 50,
     y: 150,
     width: 20,
-    height: 5,
+    height: 10,
     gravity: 0.6,
-    lift: -5,
+    lift: -10,
     velocity: 0,
     draw() {
         ctx.fillStyle = 'yellow';
