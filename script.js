@@ -11,13 +11,9 @@ let bird = {
     gravity: 0.6,
     lift: -10,
     velocity: 0,
-    image: new Image(),
-    imagePath: '/nani-modified.png', // Updated path
-    loadImage() {
-        this.image.src = this.imagePath;
-    },
     draw() {
-        ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
+        ctx.fillStyle = 'yellow';
+        ctx.fillRect(this.x, this.y, this.width, this.height);
     },
     update() {
         this.velocity += this.gravity;
@@ -35,8 +31,6 @@ let bird = {
         this.velocity = this.lift;
     }
 };
-
-bird.loadImage();
 
 let pipes = [];
 let pipeWidth = 40;
