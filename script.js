@@ -61,7 +61,7 @@ function createPipe() {
 
 function drawPipes() {
     pipes.forEach(pipe => {
-        ctx.fillStyle = 'green';
+        ctx.fillStyle = 'red';
         ctx.fillRect(pipe.x, pipe.y, pipe.width, pipe.height);
     });
 }
