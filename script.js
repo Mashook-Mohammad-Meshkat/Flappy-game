@@ -7,12 +7,12 @@ let bird = {
     x: 50,
     y: 150,
     width: 20,
-    height: 10,
+    height: 5,
     gravity: 0.6,
     lift: -10,
     velocity: 0,
     image: new Image(),
-    imagePath: 'nani-modified.png',
+    imagePath: '/nani-modified.png', // Updated path
     loadImage() {
         this.image.src = this.imagePath;
     },
@@ -35,6 +35,7 @@ let bird = {
         this.velocity = this.lift;
     }
 };
+
 bird.loadImage();
 
 let pipes = [];
