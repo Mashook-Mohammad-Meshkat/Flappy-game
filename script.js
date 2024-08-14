@@ -12,7 +12,7 @@ let bird = {
     lift: -10,
     velocity: 0,
     image: new Image(),
-    imagePath: 'public/nani-modified.png',
+    imagePath: 'nani-modified.png',
     loadImage() {
         this.image.src = this.imagePath;
     },
