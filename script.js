@@ -6,8 +6,8 @@ canvas.height = 600;
 let bird = {
     x: 50,
     y: 150,
-    width: 20,
-    height: 10,
+    width: 50,
+    height: 50,
     gravity: 0.6,
     lift: -10,
     velocity: 0,
