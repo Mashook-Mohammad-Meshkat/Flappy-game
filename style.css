@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,6 +21,8 @@ canvas {
 }
 
 #start-button {
+    max-width: 15px;
+    max-height: 15px;
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -31,4 +34,16 @@ canvas {
     font-size: 20px;
     cursor: pointer;
     display: none;
+}
+
+button {
+    border: 2px solid #000;
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
 }
